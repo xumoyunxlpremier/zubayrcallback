@@ -31,15 +31,14 @@
  console.log(countPositive(son));
 
 //4-misol
- function removeSpaces(str) {
-     let start = str.trim();
-     let finish = start.replaceAll()
-     return finish
- }
+function removeSpaces(str) {
+    let start = str.trim(); 
+    let finish = start.replaceAll(" ", ""); 
+    return finish;
+}
 
- let word = '    Najot Talim    '
-
- console.log(removeSpaces(word));
+let word = '    Najot Talim    ';
+console.log(removeSpaces(word));
 
 //5-misol 
  function hasEvenNumber(arr) {
@@ -47,8 +46,8 @@
      return couple
  }
 
- const sonlar = [1,2,3,4,5,6,]
- console.log(hasEvenNumber(sonlar));
+ const son = [1,2,3,4,5,6,]
+ console.log(hasEvenNumber(son));
 
 // 6-misol 
  function removeZeros(arr) {
@@ -120,8 +119,8 @@ function getInitials(str) {
     return join
 }
 
-let words="Assalomu Alaykum"
-console.log(getInitials(words));
+let words2="Assalomu Alaykum"
+console.log(getInitials(words2));
 
 
 //15-misol
